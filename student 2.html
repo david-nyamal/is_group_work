@@ -2,138 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>haga Ntirungika David </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haga Ntirungika David | Student Portfolio</title>
+    <!-- Links to the shared CSS for students 1-4 -->
+    <link rel="stylesheet" href="style-student-alpha.css">
 </head>
 <body>
 
-    <!-- Navigation Header -->
-    <table width="100%" border="0" cellpadding="10">
-        <tr>
-            <td align="left">
-                <h1>Student Portfolio Website</h1>
-            </td>
-            <td align="right" valign="bottom">
-                <a href="index.html">Home</a> | 
-                <a href="contact.html">Contact Us</a>
-            </td>
-        </tr>
-    </table>
+    <!-- Main Navigation -->
+    <nav class="top-nav">
+        <div class="logo">Group GN</div>
+        <div class="main-links">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
 
-    <hr>
+    <main class="profile-container">
+        
+        <!-- Hero Section: Haga Ntirungika David -->
+        <section class="hero-section">
+            <div class="hero-text">
+                <span class="greeting">Hello, I'm</span>
+                <h1>Haga Ntirungika <br>David</h1>
+                <p class="bio-intro">I am a determined first-year student at the University of Dar es Salaam, focused on building a better future through hard work and education.</p>
+                <a href="mailto:seniorhaga@example.com" class="cta-btn">Get in Touch</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="./image/haga.jpeg" alt="Haga Ntirungika David" class="main-profile-img">
+            </div>
+        </section>
 
-    <!-- Student Profile Navigation -->
-    <table width="100%" border="0" cellpadding="5">
-        <tr>
-            <td align="center">
-                <strong>Student Profiles:</strong> 
-                <a href="student 1.html">Student 1</a> | 
-                <a href="student 2.html">Student 2</a> | 
-                <a href="student 3.html">Student 3</a> | 
-                <a href="student 4.html">Student 4</a> | 
-                <a href="student 5.html">Student 5</a> | 
-                <a href="student 6.html">Student 6</a> | 
-                <a href="student 7.html">Student 7</a> | 
-                <a href="student 8.html">Student 8</a>
-            </td>
-        </tr>
-    </table>
+        <!-- Stats Row -->
+        <section class="stats-row">
+            <div class="stat-item"><strong>Moshi</strong><span>Hometown</span></div>
+            <div class="stat-item"><strong>UDSM</strong><span>Current Uni</span></div>
+            <div class="stat-item"><strong>1st Year</strong><span>Status</span></div>
+        </section>
 
-    <hr>
+        <!-- Biography Card -->
+        <section class="content-card biography">
+            <div class="card-img">
+                <!-- Activity Gallery Image 1 -->
+                <img src="./image/haga.jpeg" alt="Activity 1" style="border-radius: 20px; width: 100%;">
+            </div>
+            <div class="card-text">
+                <h2>Short Biography</h2>
+                <p>I completed my O-Level studies at Heritage Secondary School and my A-Level studies at Tambaza high school. After high school, I dedicated myself to joining the best university in Tanzania to pursue my dreams.</p>
+                <div class="skills-tags">
+                    <span>HTML</span> <span>Java</span>
+                </div>
+            </div>
+        </section>
 
-    <table width="900" align="center" border="0" cellpadding="20">
-        <tr>
-            <td>
+        <!-- Education History Grid -->
+        <h2 class="section-title">Education History</h2>
+        <section class="education-grid">
+            <div class="edu-box">
+                <span class="year">Present</span>
+                <h3>Undergraduate</h3>
+                <p>University of Dar es Salaam</p>
+            </div>
+            <div class="edu-box">
+                <span class="year">Completed</span>
+                <h3>A-Level</h3>
+                <p>Tambaza High School</p>
+            </div>
+            <div class="edu-box">
+                <span class="year">Completed</span>
+                <h3>O-Level</h3>
+                <p>Heritage Secondary School</p>
+            </div>
+        </section>
 
-                <!-- Personal Information Section -->
-                <h2>Personal Information</h2>
-                <p align="center">
-                    <img src="./image/haga.jpeg" alt="Student 2 Profile Photo" width="200" border="1">
-                </p>
-                <p><strong>Name:</strong> Haga Ntirungika David</p>
-                <p><strong>Address:</strong> 123 University Road, City Center</p>
-                <p><strong>Email:</strong> <a href="mailto:seniorhaga@example.com">seniorhaga@example.com</a></p>
-
-                <h3>Short Biography</h3>
-                <p>My name is Haga Ntirungika David. I come from Moshi, Tanzania. I am a first-year student at University of Dar es Salaam, one of the best universities in the country. I completed my O-Level studies at Heritage Secondary School and my A-Level studies at Tambaza high school. After finishing high school, I worked hard to join university and continue my education. I am focused on my studies and determined to build a better future for myself.</p>
-
-                <hr>
-
-                <!-- Skills Section -->
-                <h3>Skills</h3>
+        <!-- Hobbies & Links -->
+        <section class="gallery-section" style="display: flex; gap: 40px; align-items: flex-start; margin-top: 60px;">
+            <div class="hobbies-list" style="flex: 1;">
+                <h2>Hobbies</h2>
                 <ul>
-                    <li>HTML</li>
-                    <li>Java</li>
-                </ul>
-
-                <hr>
-
-                <!-- Education Section -->
-                <h3>Education History</h3>
-                <table border="1" width="100%" cellpadding="10" cellspacing="0">
-                    <tr>
-                        <th>Level</th>
-                        <th>School / Institution</th>
-                        <th>Year</th>
-                    </tr>
-                    <tr>
-                        <td>O-Level</td>
-                        <td>Heritage Secondary School</td>
-                        <td>Completed</td>
-                    </tr>
-                    <tr>
-                        <td>A-Level</td>
-                        <td>Tambaza high school</td>
-                        <td>Completed</td>
-                    </tr>
-                    <tr>
-                        <td>Undergraduate</td>
-                        <td>University of Dar es Salaam</td>
-                        <td>First Year - Present</td>
-                    </tr>
-                </table>
-
-                <hr>
-
-                <!-- Hobbies & Interests Section -->
-                <h3>Hobbies & Interests</h3>
-                <ol>
-                    <li>Riding bicycles</li>
+                    <li>Riding Bicycles</li>
                     <li>Swimming</li>
                     <li>Football</li>
-                    <li>Sports betting</li>
-                </ol>
-
-                <hr>
-
-                <!-- Image Section -->
-                <h3>Activity Gallery</h3>
-                <table border="0" cellpadding="5" align="center">
-                    <tr>
-                        <td><img src="img1.jpg" width="150" height="100" alt="Activity 1"></td>
-                        <td><img src="img2.jpg" width="150" height="100" alt="Activity 2"></td>
-                    </tr>
-                </table>
-
-                <hr>
-
-                <!-- Favorite Links Section -->
-                <h3>Favorite Links</h3>
-                <ul>
-                    <li><a href="https://github.com" target="_blank">My GitHub Profile</a></li>
-                    <li><a href="https://youtube.com" target="_blank">Educational YouTube Channels</a></li>
-                    <li>
-                        <a href="https://youtube.com" target="_blank">
-                            <img src="img1.jpg" alt="YouTube Icon" width="30" height="30">
-                        </a>
-                    </li>
+                    <li>Sports Betting</li>
                 </ul>
+                <div style="margin-top: 20px;">
+                    <a href="https://github.com" target="_blank" class="fav-link" style="color: #8a2be2; text-decoration: none; font-weight: bold; display: block; margin-bottom: 10px;">View My GitHub Profile</a>
+                    <a href="https://youtube.com" target="_blank" class="fav-link" style="color: #8a2be2; text-decoration: none; font-weight: bold;">Educational YouTube</a>
+                </div>
+            </div>
+            <div class="gallery-images" style="flex: 1;">
+                <!-- Activity Gallery Image 2 -->
+                <img src="./image/haga.jpeg" alt="Activity 2" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+            </div>
+        </section>
 
-            </td>
-        </tr>
-    </table>
+    </main>
 
-    <!-- AI Usage Declaration: This page structure was created with assistance from AI tools. -->
+    <footer>
+        <p>&copy; 2026 Haga Ntirungika David | Group GN Portfolio</p>
+    </footer>
 
 </body>
 </html>
-

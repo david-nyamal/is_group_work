@@ -2,135 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kelvin Alfred Mhanganya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Alfred Mhanganya | Student Portfolio</title>
+    <!-- Use the new Beta CSS for students 5-8 -->
+    <link rel="stylesheet" href="style-student-beta.css">
 </head>
 <body>
 
-    <!-- Navigation Header -->
-    <table width="100%" border="0" cellpadding="10">
-        <tr>
-            <td align="left">
-                <h1>Student Portfolio Website</h1>
-            </td>
-            <td align="right" valign="bottom">
-                <a href="index.html">Home</a> | 
-                <a href="contact.html">Contact Us</a>
-            </td>
-        </tr>
-    </table>
+    <nav>
+        <div class="logo">GROUP GN</div>
+        <div class="nav-links">
+            <a href="index.html" style="margin-right: 20px; text-decoration: none; color: inherit;">Home</a>
+            <a href="contact.html" style="text-decoration: none; color: inherit;">Contact</a>
+        </div>
+    </nav>
 
-    <hr>
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-text">
+                <h4>Welcome to my world</h4>
+                <h1>Hi, I'm <span>Kelvin Alfred</span><br>a BIT Student.</h1>
+                <p>Studying Bachelor of Science in Business Information Technology at the University of Dar es Salaam.</p>
+            </div>
+            <div class="hero-img">
+                <img src="./image/kelvin.jpeg" alt="Kelvin Alfred">
+            </div>
+        </section>
 
-    <!-- Student Profile Navigation -->
-    <table width="100%" border="0" cellpadding="5">
-        <tr>
-            <td align="center">
-                <strong>Student Profiles:</strong> 
-                <a href="student 1.html">Student 1</a> | 
-                <a href="student 2.html">Student 2</a> | 
-                <a href="student 3.html">Student 3</a> | 
-                <a href="student 4.html">Student 4</a> | 
-                <a href="student 5.html">Student 5</a> | 
-                <a href="student 6.html">Student 6</a> | 
-                <a href="student 7.html">Student 7</a> | 
-                <a href="student 8.html">Student 8</a>
-            </td>
-        </tr>
-    </table>
+        <!-- What I Do Section -->
+        <h4 class="section-title">Features</h4>
+        <h2>What I Do</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Developing foundational skills in HTML and web technologies to build business solutions.</p>
+            </div>
+            <div class="card">
+                <h3>Business Logic</h3>
+                <p>Applying information technology to streamline business processes and data management.</p>
+            </div>
+            <div class="card">
+                <h3>Strategy</h3>
+                <p>Learning how to leverage digital tools for competitive advantage in modern markets.</p>
+            </div>
+        </div>
 
-    <hr>
+        <!-- Education Section -->
+        <h2 class="section-title" style="margin-top: 80px;">My Resume</h2>
+        <table class="edu-table">
+            <tr>
+                <td>
+                    <strong>2022 - 2025</strong><br>
+                    <h3>Mbeya University of Science and Technology</h3>
+                    <p>University Studies</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>2018 - 2021</strong><br>
+                    <h3>Geita Adventist Secondary School</h3>
+                    <p>Secondary Education</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>2011 - 2017</strong><br>
+                    <h3>Eden Valley Primary School</h3>
+                    <p>Primary Education</p>
+                </td>
+            </tr>
+        </table>
 
-    <table width="900" align="center" border="0" cellpadding="20">
-        <tr>
-            <td>
+        <!-- Activity Gallery -->
+        <h2 class="section-title">Portfolio</h2>
+        <div class="card-grid">
+            <div class="card" style="padding: 10px;">
+                <img src="./image/kelvin.jpeg" style="width: 100%; border-radius: 10px;">
+                <p style="text-align: center; margin-top: 10px;">Academic Projects</p>
+            </div>
+            <div class="card" style="padding: 10px;">
+                <img src="./image/kelvin.jpeg" style="width: 100%; border-radius: 10px;">
+                <p style="text-align: center; margin-top: 10px;">Extra-curriculars</p>
+            </div>
+        </div>
+    </div>
 
-                <!-- Personal Information Section -->
-                <h2>Personal Information</h2>
-                <p align="center">
-                    <img src="./image/kelvin.jpeg" alt="Student 5 Profile Photo" width="200" border="1">
-                </p>
-                <p><strong>Name:</strong> Kelvin Alfred Mhanganya</p>
-                <p><strong>Address:</strong> 123 University Road, City Center</p>
-                <p><strong>Email:</strong> <a href="mailto:alfredkelvin587@gmail.com">alfredkelvin587@example.com</a></p>
-
-                <h3>Short Biography</h3>
-                <p>My name is Kelvin Alfred Mhanganya. A student at The university of Daressalaam studying Bachelor of Science in Business Information Technology.</p>
-
-                <hr>
-
-                <!-- Skills Section -->
-                <h3>Skills</h3>
-                <ul>
-                    <li>Programming(HTML)</li>
-                </ul>
-
-                <hr>
-
-                <!-- Education Section -->
-                <h3>Education History</h3>
-                <table border="1" width="100%" cellpadding="10" cellspacing="0">
-                    <tr>
-                        <th>Level</th>
-                        <th>School / Institution</th>
-                        <th>Year</th>
-                    </tr>
-                    <tr>
-                        <td>Primary School</td>
-                        <td>Eden valley Primary school</td>
-                        <td>2011 - 2017</td>
-                    </tr>
-                    <tr>
-                        <td>Secondary School</td>
-                        <td>Geita Adventist secondary school</td>
-                        <td>2018 - 2021</td>
-                    </tr>
-                    <tr>
-                        <td>University</td>
-                        <td>Mbeya University of Science and Technology</td>
-                        <td>2022 - 2025</td>
-                    </tr>
-                </table>
-
-                <hr>
-
-                <!-- Hobbies & Interests Section -->
-                <h3>Hobbies & Interests</h3>
-                <ol>
-                    <li>Games</li>
-                    <li>Movies</li>
-                    <li>Music</li>
-                </ol>
-
-                <hr>
-
-                <!-- Image Section -->
-                <h3>Activity Gallery</h3>
-                <table border="0" cellpadding="5" align="center">
-                    <tr>
-                        <td><img src="img1.jpg" width="150" height="100" alt="Activity 1"></td>
-                        <td><img src="img2.jpg" width="150" height="100" alt="Activity 2"></td>
-                    </tr>
-                </table>
-
-                <hr>
-
-                <!-- Favorite Links Section -->
-                <h3>Favorite Links</h3>
-                <ul>
-                    <li><a href="https://github.com" target="_blank">My GitHub Profile</a></li>
-                    <li><a href="https://youtube.com" target="_blank">Educational YouTube Channels</a></li>
-                    <li>
-                        <a href="https://youtube.com" target="_blank">
-                            <img src="img1.jpg" alt="YouTube Icon" width="30" height="30">
-                        </a>
-                    </li>
-                </ul>
-
-            </td>
-        </tr>
-    </table>
-
-    <!-- AI Usage Declaration: This page structure was created with assistance from AI tools. -->
+    <footer style="text-align: center; padding: 40px; color: #777;">
+        &copy; 2026 Kelvin Alfred Mhanganya
+    </footer>
 
 </body>
 </html>

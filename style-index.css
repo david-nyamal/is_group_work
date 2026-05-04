@@ -1,0 +1,132 @@
+/* 1. BASIC CONCEPTS: Fonts and Colors */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 2. ADVANCED CONCEPT: Gradients & Hero Styling */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('image/nkurumah.jpeg'); /* Placeholder for background image */
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: white;
+    padding: 0 50px;
+}
+
+/* Navigation Styling */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.main-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 8px 16px;
+    /* ADVANCED: Transition */
+    transition: background 0.3s ease;
+}
+
+/* 1. BASIC: Hover Effect */
+.main-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+/* Hero Text Styling */
+.hero-content {
+    margin-top: 60px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content span {
+    color: #a8e063; /* Accent Color */
+}
+
+/* Main Container */
+.container {
+    max-width: 1100px;
+    margin: -60px auto 40px; /* ADVANCED: Negative margin to overlap hero */
+    padding: 0 20px;
+}
+
+/* 2. ADVANCED: Rounded Corners and Shadows */
+.welcome-card {
+    background: white;
+    padding: 40px;
+    border-radius: 30px; /* Rounded Corners */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Shadow */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.welcome-text { flex: 2; }
+.group-img-container { flex: 1; text-align: center; }
+
+/* 1. BASIC: Image Styling */
+.group-photo {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 20px;
+    border: 5px solid #f0f2f5;
+}
+
+/* Student Profiles Grid */
+.section-title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns like the UI image */
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+/* 1. BASIC: Link Styling & Hover */
+.profile-link {
+    background: white;
+    padding: 30px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    /* ADVANCED: 2D Transform on hover */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-link:hover {
+    transform: translateY(-10px); /* 2D Transform */
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+    color: #56ab2f;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #1a1a1a;
+    color: white;
+}

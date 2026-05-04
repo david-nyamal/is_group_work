@@ -2,109 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us - Student Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Group GN</title>
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style-contact.css">
 </head>
 <body>
 
-    <!-- Navigation Header -->
-    <table width="100%" border="0" cellpadding="10">
-        <tr>
-            <td align="left">
-                <h1>Student Portfolio Website</h1>
-            </td>
-            <td align="right" valign="bottom">
-                <a href="index.html">Home</a> | 
-                <a href="contact.html">Contact Us</a>
-            </td>
-        </tr>
-    </table>
+    <!-- Header & Main Nav -->
+    <header class="contact-hero">
+        <nav class="top-nav">
+            <div class="logo">Group GN</div>
+            <div class="main-links">
+                <a href="index.html">Home</a>
+                <a href="contact.html" class="active">Contact Us</a>
+            </div>
+        </nav>
+        <div class="hero-title">
+            <h1>Contact Us</h1>
+            <p>Home / Contact</p>
+        </div>
+    </header>
 
-    <hr>
+    <!-- Student Profiles Secondary Nav -->
+    <nav class="sub-nav">
+        <strong>Student Profiles:</strong> 
+        <a href="./student 1.html">Student 1</a>
+        <a href="./student 2.html">Student 2</a>
+        <a href="./student 3.html">Student 3</a>
+        <a href="./student 4.html">Student 4</a>
+        <a href="./student 5.html">Student 5</a>
+        <a href="./student 6.html">Student 6</a>
+        <a href="./student 7.html">Student 7</a>
+        <a href="./student 8.html">Student 8</a>
+    </nav>
 
-    <!-- Student Profile Navigation -->
-    <table width="100%" border="0" cellpadding="5">
-        <tr>
-            <td align="center">
-                <strong>Student Profiles:</strong> 
-                <a href="student 1.html">Student 1</a> | 
-                <a href="student 2.html">Student 2</a> | 
-                <a href="student 3.html">Student 3</a> | 
-                <a href="student 4.html">Student 4</a> | 
-                <a href="student 5.html">Student 5</a> | 
-                <a href="student 6.html">Student 6</a> | 
-                <a href="student 7.html">Student 7</a> | 
-                <a href="student 8.html">Student 8</a>
-            </td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <!-- Contact Information Section -->
-    <table width="800" align="center" border="0" cellpadding="20">
-        <tr>
-            <td>
-                <h2>Contact Information</h2>
-                <p><strong>Email:</strong> <a href="mailto:group@studentportfolio.com">group@studentportfolio.com</a></p>
-                <p><strong>Phone:</strong> +255 123 456 789</p>
-                <p><strong>Address:</strong> University of Dar es Salaam, P.O. Box 35091, Dar es Salaam, Tanzania</p>
-
-                <hr>
-
-                <!-- Contact Form Section -->
-                <h2>Contact Form</h2>
+    <main class="contact-container">
+        <!-- Flexbox Section for Form and Info -->
+        <div class="contact-wrapper">
+            
+            <!-- Contact Form Card -->
+            <section class="form-card">
+                <h2>Get In Touch</h2>
                 <form action="#" method="post">
-                    <table border="0" cellpadding="5">
-                        <tr>
-                            <td><label for="name"><strong>Name:</strong></label></td>
-                            <td><input type="text" id="name" name="name" size="40" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="email"><strong>Email:</strong></label></td>
-                            <td><input type="email" id="email" name="email" size="40" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="message"><strong>Message:</strong></label></td>
-                            <td><textarea id="message" name="message" rows="5" cols="40" required></textarea></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Inquiry Type:</strong></td>
-                            <td>
-                                <input type="radio" id="general" name="inquiry" value="general" checked>
-                                <label for="general">General</label><br>
-                                <input type="radio" id="academic" name="inquiry" value="academic">
-                                <label for="academic">Academic</label><br>
-                                <input type="radio" id="technical" name="inquiry" value="technical">
-                                <label for="technical">Technical</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>Interests:</strong></td>
-                            <td>
-                                <input type="checkbox" id="programming" name="interests" value="programming">
-                                <label for="programming">Programming</label><br>
-                                <input type="checkbox" id="design" name="interests" value="design">
-                                <label for="design">Web Design</label><br>
-                                <input type="checkbox" id="research" name="interests" value="research">
-                                <label for="research">Research</label><br>
-                                <input type="checkbox" id="networking" name="interests" value="networking">
-                                <label for="networking">Networking</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" align="center">
-                                <input type="submit" value="Submit">
-                                <input type="reset" value="Reset">
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-            </td>
-        </tr>
-    </table>
+                    <input type="text" name="name" placeholder="Your Name.." required>
+                    <input type="email" name="email" placeholder="Your Email.." required>
+                    
+                    <div class="form-group">
+                        <label>Inquiry Type:</label><br>
+                        <input type="radio" id="gen" name="inq" checked> <label for="gen">General</label>
+                        <input type="radio" id="tech" name="inq"> <label for="tech">Technical</label>
+                    </div>
 
-    <!-- AI Usage Declaration: This page structure was created with assistance from AI tools. -->
+                    <div class="form-group">
+                        <label>Interests:</label><br>
+                        <input type="checkbox" id="code"> <label for="code">Coding</label>
+                        <input type="checkbox" id="web"> <label for="web">Design</label>
+                    </div>
+
+                    <textarea name="message" rows="5" placeholder="Type Here.." required></textarea>
+                    
+                    <div class="btn-group">
+                        <button type="submit" class="submit-btn">Send Now</button>
+                        <button type="reset" class="reset-btn">Reset</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Contact Information Side -->
+            <section class="info-side">
+                <div class="info-item">
+                    <h3>Phone Number</h3>
+                    <p>+255 123 456 789</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email Address</h3>
+                    <p>group@studentportfolio.com</p>
+                </div>
+                <div class="info-item">
+                    <h3>Our Office</h3>
+                    <p>UDSM, P.O. Box 35091,<br>Dar es Salaam, Tanzania</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Group GN - University of Dar es Salaam</p>
+    </footer>
 
 </body>
 </html>
-

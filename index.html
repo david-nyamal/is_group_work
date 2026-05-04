@@ -2,62 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Student Portfolio Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio Dashboard | Group GN</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style-index.css">
 </head>
 <body>
 
-    <table width="100%" border="0" cellpadding="10">
-        <tr>
-            <td align="left">
-                <h1>Student Portfolio Website Group GN</h1>
-            </td>
-            <td align="right" valign="bottom">
-                <a href="index.html">Home</a> | 
+    <!-- Hero Section -->
+    <header class="hero">
+        <nav class="top-nav">
+            <div class="logo">Group GN</div>
+            <div class="main-links">
+                <a href="index.html" class="active">Home</a>
                 <a href="contact.html">Contact Us</a>
-            </td>
-        </tr>
-    </table>
+            </div>
+        </nav>
 
-    <hr>
+        <div class="hero-content">
+            <h1>Student Portfolio <br><span>Website Group GN</span></h1>
+            <p>University of Dar es Salaam | Web Development Project 2026</p>
+        </div>
+    </header>
 
-    <table width="100%" border="0" cellpadding="5">
-        <tr>
-            <td align="center">
-                <strong>Student Profiles:</strong> 
-                <a href="student 1.html">Student 1</a> | 
-                <a href="student 2.html">Student 2</a> | 
-                <a href="student 3.html">Student 3</a> | 
-                <a href="student 4.html">Student 4</a> | 
-                <a href="student 5.html">Student 5</a> | 
-                <a href="student 6.html">Student 6</a> | 
-                <a href="student 7.html">Student 7</a> | 
-                <a href="student 8.html">Student 8</a>
-            </td>
-        </tr>
-    </table>
 
-    <hr>
+    <!-- Main Content Area -->
+    <main class="container">
+        
+        <!-- Welcome Section -->
+        <section class="welcome-card">
+            <div class="welcome-text">
+                <h2>Welcome to our Group Portfolio</h2>
+                <p>We are a team of eight dedicated students collaborating to showcase our individual skills, educational backgrounds, and personal interests. Each member has contributed their own portfolio page, highlighting their unique journey.</p>
+            </div>
+            <div class="group-img-container">
+                <img src="image/nkurumah.jpeg" alt="Group Members" class="group-photo">
+            </div>
+        </section>
 
-    <table width="800" align="center" border="0" cellpadding="20">
-        <tr>
-            <td>
-                <h2>Welcome to our Group Portfolio Group GN</h2>
-                <p>We are a group of 8 students collaborating on this web development project. This dashboard serves as our central directory.</p>
-                
-                <p align="center">
-                    <img src="image/nkurumah.jpeg" alt="Group Members" width="300">
-                    <br>
-                    <small>Group image (optional)</small>
-                </p>
+        <!-- Student Profiles Grid (The "Sub-Nav") -->
+        <h3 class="section-title">Meet Our Team</h3>
+        <nav class="profile-grid">
+            <a href="student 1.html" class="profile-link">Student 1</a>
+            <a href="student 2.html" class="profile-link">Student 2</a>
+            <a href="student 3.html" class="profile-link">Student 3</a>
+            <a href="student 4.html" class="profile-link">Student 4</a>
+            <a href="student 5.html" class="profile-link">Student 5</a>
+            <a href="student 6.html" class="profile-link">Student 6</a>
+            <a href="student 7.html" class="profile-link">Student 7</a>
+            <a href="student 8.html" class="profile-link">Student 8</a>
+        </nav>
 
-                <h3>About Our Group</h3>
-                <p>We are a team of eight dedicated students from the University of Dar es Salaam, collaborating on this web development project to showcase our individual skills, educational backgrounds, and personal interests. Each member has contributed their own portfolio page, highlighting their unique journey and aspirations in the field of technology and beyond.</p>
-                <p>Select a student from the profile bar above to view their personal details, skills, and education.</p>
+    </main>
 
-                
-            </td>
-        </tr>
-    </table>
+    <footer>
+        <p>&copy; 2026 Group GN - University of Dar es Salaam</p>
+    </footer>
 
 </body>
 </html>

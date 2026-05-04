@@ -2,144 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kamanda Isaac mwanandjibu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamanda Isaac | Student Portfolio</title>
+    <link rel="stylesheet" href="style-student-alpha.css">
 </head>
 <body>
 
-    <!-- Navigation Header -->
-    <table width="100%" border="0" cellpadding="10">
-        <tr>
-            <td align="left">
-                <h1>Student Portfolio Website</h1>
-            </td>
-            <td align="right" valign="bottom">
-                <a href="index.html">Home</a> | 
-                <a href="contact.html">Contact Us</a>
-            </td>
-        </tr>
-    </table>
+    <!-- Main Navigation (Consistent with Home/Contact) -->
+    <nav class="top-nav">
+        <div class="logo">Group GN</div>
+        <div class="main-links">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
 
-    <hr>
+    <main class="profile-container">
+        
+        <!-- Hero Section: Matches "Hello, I'm Brooklyn" -->
+        <section class="hero-section">
+            <div class="hero-text">
+                <span class="greeting">Hello, I'm</span>
+                <h1>Kamanda Isaac <br>Mwanandjibu</h1>
+                <p class="bio-intro">I am a tech enthusiast pursuing a degree in Business Information Technology at UDSM, with the dream of becoming a leading developer and business owner.</p>
+                <a href="mailto:kamandaisaac34@gmail.com" class="cta-btn">Say Hello!</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="./image/kamanda.jpeg" alt="Kamanda Isaac" class="main-profile-img">
+            </div>
+        </section>
 
-    <!-- Student Profile Navigation -->
-    <table width="100%" border="0" cellpadding="5">
-        <tr>
-            <td align="center">
-                <strong>Student Profiles:</strong> 
-                <a href="student 1.html">Student 1</a> | 
-                <a href="student 2.html">Student 2</a> | 
-                <a href="student 3.html">Student 3</a> | 
-                <a href="student 4.html">Student 4</a> | 
-                <a href="student 5.html">Student 5</a> | 
-                <a href="student 6.html">Student 6</a> | 
-                <a href="student 7.html">Student 7</a> | 
-                <a href="student 8.html">Student 8</a>
-            </td>
-        </tr>
-    </table>
+        <!-- Stats/Quick Info Row -->
+        <section class="stats-row">
+            <div class="stat-item"><strong>BIT</strong><span>Degree</span></div>
+            <div class="stat-item"><strong>UDSM</strong><span>Institution</span></div>
+            <div class="stat-item"><strong>Developer</strong><span>Goal</span></div>
+        </section>
 
-    <hr>
+        <!-- About/Bio Card -->
+        <section class="content-card biography">
+            <div class="card-img">
+                <img src="./image/poncho.jpeg" alt="Activity">
+            </div>
+            <div class="card-text">
+                <h2>Short Biography</h2>
+                <p>Focused on the intersection of business and technology. My journey started at Dar es Salaam International School and has led me to explore the world of software development.</p>
+                <div class="skills-tags">
+                    <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                </div>
+            </div>
+        </section>
 
-    <table width="900" align="center" border="0" cellpadding="20">
-        <tr>
-            <td>
+        <!-- Education History (Grid instead of Table for modern feel) -->
+        <h2 class="section-title">Education History</h2>
+        <section class="education-grid">
+            <div class="edu-box">
+                <span class="year">2026 - 2028</span>
+                <h3>Bachelor Degree</h3>
+                <p>UDSM</p>
+            </div>
+            <div class="edu-box">
+                <span class="year">2022 - 2025</span>
+                <h3>College</h3>
+                <p>Unique Academy</p>
+            </div>
+            <div class="edu-box">
+                <span class="year">2018 - 2021</span>
+                <h3>Secondary School</h3>
+                <p>Mugabe Secondary</p>
+            </div>
+            <div class="edu-box">
+                <span class="year">2011 - 2017</span>
+                <h3>Primary School</h3>
+                <p>D.I.S</p>
+            </div>
+        </section>
 
-                <!-- Personal Information Section -->
-                <h2>Personal Information</h2>
-                <p align="center">
-                    <img src="./image/kamanda.jpeg" alt="Student 1 Profile Photo" width="200" height="400" border="1">
-                </p>
-                <p><strong>Name:</strong> Kamanda Isaac mwanandjibu </p>
-                <p><strong>Address:</strong> 123 University Road, City Center</p>
-                <p><strong>Email:</strong> <a href="mailto:kamandaisaac34@gmail.com">kamandaisaac34@gmail.com</a></p>
-
-                <h3>Short Biography</h3>
-                <p>I am a teen in pursuing degree in business information technology 
-                    With the dream of becoming a big developer and business owner</p>
-
-                <hr>
-
-                <!-- Skills Section -->
-                <h3>Skills</h3>
+        <!-- Hobbies & Activity Gallery -->
+        <section class="gallery-section">
+            <div class="hobbies-list">
+                <h2>Hobbies</h2>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-
-                <hr>
-
-                <!-- Education Section -->
-                <h3>Education History</h3>
-                <table border="1" width="100%" cellpadding="10" cellspacing="0">
-                    <tr>
-                        <th>Level</th>
-                        <th>School / Institution</th>
-                        <th>Year</th>
-                    </tr>
-                    <tr>
-                        <td>Primary School</td>
-                        <td>daressalaam international school</td>
-                        <td>2011 - 2017</td>
-                    </tr>
-                    <tr>
-                        <td>Secondary School</td>
-                        <td>Mugabe sec secondary sch</td>
-                        <td>2018 - 2021</td>
-                    </tr>
-                    <tr>
-                        <td>College</td>
-                        <td>unique Academy</td>
-                        <td>2022 - 2025</td>
-                    </tr>
-                    <tr>
-                        <td>Bachelor Degree</td>
-                        <td>udsm</td>
-                        <td>2026 - 2028</td>
-                    </tr>
-                </table>
-
-                <hr>
-
-             
-                <h3>Hobbies & Interests</h3>
-                <ol>
                     <li>Gaming</li>
                     <li>Anime</li>
                     <li>Technology</li>
                     <li>Formula 1</li>
-                </ol>
-
-                <hr>
-
-                <!-- Image Section -->
-                <h3>Activity Gallery</h3>
-                <table border="0" cellpadding="5" align="center">
-                    <tr>
-                        <td><img src="./image/poncho.jpeg" width="250" height="300" alt="Activity 1"></td>
-                        <td><img src="./image/homelo.jpeg " width="150" height="200" alt="Activity 2"></td>
-                    </tr>
-                </table>
-
-                <hr>
-
-                <!-- Favorite Links Section -->
-                <h3>Favorite Links</h3>
-                <ul>
-                    <li><a href="https://www.youtube.com/@JennyslecturesCSIT" target="_blank">Educational YouTube Channels</a></li>
-                    <li>
-                        <a href="https://youtube.com" target="_blank">
-                            <img src="img1.jpg" alt="YouTube Icon" width="10" height="10">
-                        </a>
-                    </li>
                 </ul>
+                <a href="https://www.youtube.com/@JennyslecturesCSIT" target="_blank" class="fav-link">Favorite Channel</a>
+            </div>
+            <div class="gallery-images">
+                <img src="./image/homelo.jpeg" alt="Activity 2">
+            </div>
+        </section>
 
-            </td>
-        </tr>
-    </table>
+    </main>
 
-    
+    <footer>
+        <p>&copy; 2026 Kamanda Isaac | Group GN Portfolio</p>
+    </footer>
 
 </body>
 </html>
-

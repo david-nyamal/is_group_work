@@ -2,143 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>janeth musa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janeth Musa | Student Portfolio</title>
+    <!-- Using the Beta CSS for the final student block -->
+    <link rel="stylesheet" href="style-student-beta.css">
 </head>
 <body>
 
-    <!-- Navigation Header -->
-    <table width="100%" border="0" cellpadding="10">
-        <tr>
-            <td align="left">
-                <h1>Student Portfolio Website</h1>
-            </td>
-            <td align="right" valign="bottom">
-                <a href="index.html">Home</a> | 
-                <a href="contact.html">Contact Us</a>
-            </td>
-        </tr>
-    </table>
+    <nav>
+        <div class="logo">GROUP GN</div>
+        <div class="nav-links">
+            <a href="index.html" style="margin-right: 20px; text-decoration: none; color: inherit;">Home</a>
+            <a href="contact.html" style="text-decoration: none; color: inherit;">Contact</a>
+        </div>
+    </nav>
 
-    <hr>
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-text">
+                <h4>Welcome to my world</h4>
+                <h1>Hi, I'm <span>Janeth Musa</span><br>Tech Enthusiast.</h1>
+                <p>An aspiring developer focused on building efficient software solutions and exploring the latest trends in digital technology.</p>
+                <div style="margin-top: 30px;">
+                    <a href="mailto:janeth47@gmail.com" style="text-decoration: none; background: var(--bg-color); padding: 15px 35px; border-radius: 6px; box-shadow: var(--card-shadow); color: var(--primary-color); font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="./image/janeth1.jpeg" alt="Janeth Musa">
+            </div>
+        </section>
 
-    <!-- Student Profile Navigation -->
-    <table width="100%" border="0" cellpadding="5">
-        <tr>
-            <td align="center">
-                <strong>Student Profiles:</strong> 
-                <a href="student 1.html">Student 1</a> | 
-                <a href="student 2.html">Student 2</a> | 
-                <a href="student 3.html">Student 3</a> | 
-                <a href="student 4.html">Student 4</a> | 
-                <a href="student 5.html">Student 5</a> | 
-                <a href="student 6.html">Student 6</a> | 
-                <a href="student 7.html">Student 7</a> | 
-                <a href="student 8.html">Student 8</a>
-            </td>
-        </tr>
-    </table>
+        <!-- Features Section (Skills & Hobbies) -->
+        <h4 class="section-title">Features</h4>
+        <h2>Expertise & Interests</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Building logic with C, Python, and creating responsive interfaces with HTML & CSS.</p>
+            </div>
+            <div class="card">
+                <h3>Photography</h3>
+                <p>Capturing the essence of nature and urban life through a creative digital lens.</p>
+            </div>
+            <div class="card">
+                <h3>Problem Solving</h3>
+                <p>Applying strategy and puzzle-solving mindsets to technical and collaborative challenges.</p>
+            </div>
+        </div>
 
-    <hr>
+        <!-- Education Section -->
+        <h2 class="section-title" style="margin-top: 80px;">My Education</h2>
+        <table class="edu-table">
+            <tr>
+                <td>
+                    <span style="color: var(--primary-color); font-weight: bold;">2026 - Present</span>
+                    <h3>University of Dar es Salaam</h3>
+                    <p>Undergraduate Studies in Technology & Development</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span style="color: var(--primary-color); font-weight: bold;">2018 - 2021</span>
+                    <h3>Babro Johanson</h3>
+                    <p>Secondary Education Excellence</p>
+                </td>
+            </tr>
+        </table>
 
-    <table width="900" align="center" border="0" cellpadding="20">
-        <tr>
-            <td>
+        <!-- Hobbies & Links Section -->
+        <div style="display: flex; gap: 40px; margin-top: 80px; align-items: center;">
+            <div style="flex: 1;">
+                <h2 class="section-title">Daily Inspiration</h2>
+                <div class="card" style="margin-top: 20px;">
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 15px;">🌐 <strong>Tech Blogs:</strong> Keeping up with software trends.</li>
+                        <li style="margin-bottom: 15px;">🎮 <strong>Gaming:</strong> Enhancing strategic thinking.</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="flex: 1;">
+                 <h2 class="section-title">Activity Gallery</h2>
+                 <div style="display: flex; gap: 15px;">
+                    <img src="./image/janeth1.jpeg" style="width: 48%; border-radius: 10px; box-shadow: var(--card-shadow);">
+                    <img src="./image/janeth1.jpeg" style="width: 48%; border-radius: 10px; box-shadow: var(--card-shadow);">
+                 </div>
+            </div>
+        </div>
 
-                <!-- Personal Information Section -->
-                <h2>Personal Information</h2>
-                <p align="center">
-                    <img src="./image/janeth1.jpeg" alt="Student 8 Profile Photo" width="200" border="1">
-                </p>
-                <p><strong>Name:</strong> janeth musa</p>
-                <p><strong>Address:</strong> 123 University Road, City Center</p>
-                <p><strong>Email:</strong> <a href="mailto:janeth47@gmail.com">janeth47@gmail.com</a></p>
+        <div style="margin-top: 60px; text-align: center;">
+            <a href="https://github.com" target="_blank" style="margin: 0 15px; color: var(--text-main); font-weight: bold; text-decoration: none;">GitHub</a>
+            <a href="https://youtube.com" target="_blank" style="margin: 0 15px; color: var(--text-main); font-weight: bold; text-decoration: none;">Learning Hub</a>
+        </div>
+    </div>
 
-                <h3>Short Biography</h3>
-                <p>I am a passionate student currently pursuing my studies. I have a keen interest in technology and development studies. This portfolio showcases my academic journey and the technical skills I have acquired.</p>
-
-                <hr>
-
-                <!-- Skills Section -->
-                <h3>Skills</h3>
-                <ul>
-                    <li>Programming
-                        <ul>
-                            <li>C Programming</li>
-                            <li>HTML & CSS</li>
-                            <li>Python</li>
-                        </ul>
-                    </li>
-                    <li>Soft Skills
-                        <ul>
-                            <li>Team Collaboration</li>
-                            <li>Problem Solving</li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <hr>
-
-                <!-- Education Section -->
-                <h3>Education History</h3>
-                <table border="1" width="100%" cellpadding="10" cellspacing="0">
-                    <tr>
-                        <th>Level</th>
-                        <th>School / Institution</th>
-                        <th>Year</th>
-                    </tr>
-                    <tr>
-                        <td>Undergraduate</td>
-                        <td>university of daressalaam</td>
-                        <td>2026</td>
-                    </tr>
-                    <tr>
-                        <td>Secondary Education</td>
-                        <td>babro johanson</td>
-                        <td>2018 - 21</td>
-                    </tr>
-                </table>
-
-                <hr>
-
-                <!-- Hobbies & Interests Section -->
-                <h3>Hobbies & Interests</h3>
-                <ol>
-                    <li>Reading Tech Blogs - Exploring new software trends.</li>
-                    <li>Photography - Capturing nature and urban life.</li>
-                    <li>Gaming - Strategy and puzzle games.</li>
-                </ol>
-
-                <hr>
-
-                <!-- Image Section -->
-                <h3>Activity Gallery</h3>
-                <table border="0" cellpadding="5" align="center">
-                    <tr>
-                        <td><img src="img1.jpg" width="150" height="100" alt="Activity 1"></td>
-                        <td><img src="img2.jpg" width="150" height="100" alt="Activity 2"></td>
-                    </tr>
-                </table>
-
-                <hr>
-
-                <!-- Favorite Links Section -->
-                <h3>Favorite Links</h3>
-                <ul>
-                    <li><a href="https://github.com" target="_blank">My GitHub Profile</a></li>
-                    <li><a href="https://youtube.com" target="_blank">Educational YouTube Channels</a></li>
-                    <li>
-                        <a href="https://youtube.com" target="_blank">
-                            <img src="img1.jpg" alt="YouTube Icon" width="30" height="30">
-                        </a>
-                    </li>
-                </ul>
-
-            </td>
-        </tr>
-    </table>
-
-    <!-- AI Usage Declaration: This page structure was created with assistance from AI tools. -->
+    <footer style="text-align: center; padding: 60px 0; color: #777; border-top: 1px solid #dce1e4; margin-top: 80px;">
+        <p>&copy; 2026 Janeth Musa | Final Portfolio</p>
+    </footer>
 
 </body>
 </html>
-
